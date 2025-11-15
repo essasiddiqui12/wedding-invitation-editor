@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1600" viewBox="0 0 900 1600">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf5f0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ede5d8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ddd5c8;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="pattern1" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="2" fill="#d4a574" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1600" fill="url(#grad3)"/>
+  <rect width="900" height="1600" fill="url(#pattern1)"/>
+  <polygon points="450,300 550,500 350,500" fill="#d4a574" opacity="0.3"/>
+  <path d="M 250 800 Q 450 700 650 800 T 450 1000" stroke="#c49564" stroke-width="4" fill="none" opacity="0.3"/>
+  <rect x="400" y="1100" width="100" height="200" fill="#d4a574" opacity="0.2" rx="10"/>
+  <path d="M 150 1350 Q 450 1250 750 1350" stroke="#d4a574" stroke-width="3" fill="none" opacity="0.4"/>
+  <text x="450" y="1550" text-anchor="middle" font-family="serif" font-size="24" fill="#8b7355" opacity="0.5">Sample Image 3</text>
+</svg>
+
